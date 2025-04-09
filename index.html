@@ -4,54 +4,63 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="src/style.css" />
   <title>AI Recipe Generator</title>
 </head>
 
 
 <body>
-  <header>
-    <h1>
-      AI Recipe Generator
-    </h1>
-  </header>
-  <main>
-    <form id="recipe-form">
-      <input type="text" placeholder="What do you want to cook?" autofocus required autocomplete="off" />
-      <button type="submit">Get Recipe</button>
-    </form>
-    <div id="recipe-output">
-      <h2 id="recipe-title">Recipe name will go here</h2>
-      <h3>Ingredients:</h3>
-      <ul id="recipe-ingredients">
-        <li>Ingredients</li>
-        <li>Ingredients</li>
-        <li>Ingredients</li>
-        <li>Ingredients</li>
-        <li>Ingredients</li>
+  <div class="container">
+    <div class="card">
+      <header>
+        <h1>
+          Git Cookin’ with AI
+        </h1>
+      </header>
+      <main>
+        <form id="recipe-form">
+          <input type="text" placeholder="What do you want to cook?" autofocus required autocomplete="off" />
+          <button type="submit">Get Recipe</button>
+        </form>
 
-      </ul>
-      <h3>Instructions:</h3>
-      <ol id="recipe-instructions">
-        <li>Step 1</li>
-        <li>Step 2</li>
-        <li>Step 3</li>
-        <li>Step 4</li>
-        <li>Step 5</li>
-      </ol>
+        <div class="recipe-output" id="recipe-output">
+          <h2 id="recipe-title">Recipe name will go here</h2>
+          <h3>Ingredients:</h3>
+          <ul id="recipe-ingredients">
+            <li>Ingredients</li>
+            <li>Ingredients</li>
+            <li>Ingredients</li>
+            <li>Ingredients</li>
+            <li>Ingredients</li>
 
+          </ul>
+          <h3>Instructions:</h3>
+          <ol id="recipe-instructions">
+            <li>Step 1</li>
+            <li>Step 2</li>
+            <li>Step 3</li>
+            <li>Step 4</li>
+            <li>Step 5</li>
+          </ol>
+        </div>
     </div>
-  </main>
+    </main>
 
 
-  <footer>
-    This project was coded by
-    <a href="https://github.com/ksuarez032025" target="_blank">
-      Kristian Suarez</a>, is
-    <a href="https://github.com/ksuarez032025/SheCodes---AI---Recipe-Generator" target="_blank">
-      open-sourced on GitHub</a> &
-    <a href="https://shecodesai-recipe-generator.netlify.app/" target="_blank">hosted on Netlify</a>
-  </footer>
+    <footer>
+      This project was coded by
+      <a href="https://github.com/ksuarez032025" target="_blank">
+        Kristian Suarez</a>, is
+      <a href="https://github.com/ksuarez032025/SheCodes---AI---Recipe-Generator" target="_blank">
+        open-sourced on GitHub</a> &
+      <a href="https://shecodesai-recipe-generator.netlify.app/" target="_blank">hosted on Netlify</a>
+    </footer>
+  </div>
   <script src="src/index.js"></script>
 </body>
 

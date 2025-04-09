@@ -1,0 +1,86 @@
+body {
+  background-color: #f9f7f1;
+  color: #2d2a26;
+  font-family: "Merriweather", serif;
+}
+
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  margin-bottom: 32px;
+}
+
+main {
+  margin-bottom: 48px;
+}
+
+h1 {
+  font-size: 40px;
+  color: #4c4b47;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 15px;
+}
+
+input[type="text"] {
+  padding: 12px 16px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 12px;
+  background-color: #a26769;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #8d5254;
+}
+
+.recipe-output {
+  padding: 24px;
+  margin-top: 15px;
+}
+
+ul,
+ol {
+  padding-left: 24px;
+}
+
+footer {
+  border-top: 1px solid #e0e0e0;
+  padding-top: 15px;
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+}
+
+footer a {
+  color: #a26769;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

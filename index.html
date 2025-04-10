@@ -10,6 +10,7 @@
     href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap"
     rel="stylesheet">
   <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
   <link rel="stylesheet" href="src/style.css" />
   <title>AI Recipe Generator</title>
 </head>
@@ -25,19 +26,26 @@
       </header>
       <main>
         <form id="recipe-form">
-          <input type="text" placeholder="What do you want to cook?" autofocus required autocomplete="off" />
+          <input type="text" placeholder="What do you want to cook?" autofocus required autocomplete="off"
+            id="user-request" />
           <button type="submit">Get Recipe</button>
         </form>
 
         <div class="recipe-output" id="recipe-output">
-          <h2 id="recipe-title"></h2>
+          <h2 class="recipe-title" id="recipe-title">Recipe Title</h2>
+          <div class="meta-box">
+            <p><strong>Servings:</strong> 4</p>
+            <p><strong>Prep Time:</strong> 10 min</p>
+            <p><strong>Cook Time:</strong> 20 min</p>
+            <p><strong>Total Time:</strong> 30 min</p>
+          </div>
           <h3>Ingredients:</h3>
           <ul id="recipe-ingredients">
-            <li>Ingredients</li>
-            <li>Ingredients</li>
-            <li>Ingredients</li>
-            <li>Ingredients</li>
-            <li>Ingredients</li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
 
           </ul>
           <h3>Instructions:</h3>

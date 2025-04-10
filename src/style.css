@@ -31,6 +31,16 @@ h1 {
   color: #4c4b47;
 }
 
+.tagline {
+  text-align: center;
+  font-size: 1rem;
+  color: #6a5e4d;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
 .recipe-title {
   text-align: center;
   margin-top: 10px;

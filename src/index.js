@@ -4,7 +4,7 @@ function recipeOutputHandler(response) {
   new Typewriter("#generated-recipe", {
     strings: response.data.answer,
     autoStart: true,
-    delay: 10,
+    delay: 1,
     cursor: null,
   });
 

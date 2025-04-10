@@ -33,10 +33,10 @@ h1 {
 
 .tagline {
   text-align: center;
-  font-size: 1rem;
+  font-size: 16px;
   color: #6a5e4d;
   margin-top: -10px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   font-weight: 400;
   letter-spacing: 0.5px;
 }
